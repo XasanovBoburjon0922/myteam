@@ -1,0 +1,389 @@
+@font-face {
+    font-family: 'Livvic';
+    src: url('../fonts/Livvic-SemiBold.woff2') format('woff2'),
+        url('../fonts/Livvic-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('../fonts/Livvic-Bold.woff2') format('woff2'),
+        url('../fonts/Livvic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('../fonts/Livvic-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Livvic-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Livvic', sans-serif;
+}
+.site-header{
+    background-color: #014E56;
+    background-image: url("../images/element-bg.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 758px) calc(50% + 10px);
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header{
+    margin-bottom: 140px;
+}
+.header-content{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+.header-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-title{
+    width: 49px;
+    height: 28px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+}
+.myteam-logo{
+    margin-right: 80px;
+}
+.text-space{
+    margin-right: 40px;
+}
+.button{
+    cursor: pointer;
+    width: 153px;
+    height: 46px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    background-color: #014E56;
+}
+.button:hover{
+    cursor: pointer;
+    width: 153px;
+    height: 46px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    border: 2px solid #014E56;
+    color: #014E56;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    background-color: white;
+}
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-title{
+    width: 620px;
+    height: 200px;
+    color: #FFF;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 250px;
+}
+.color-red{
+    color: #F67E7E;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+}
+.hero-card2{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/element-bg2.svg");
+    background-repeat: no-repeat;
+    background-position: 68px 349px;
+}
+.hero-line{
+    width: 50px;
+    height: 4px;
+    flex-shrink: 0;
+    background: #79C8C7;
+    margin-bottom: 79px;
+}
+.hero-text{
+    width: 445px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+.team-section{
+    background-color: #012F34;
+    background-image: url("../images/element-bg3.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 759px) calc(50% + 163px);   
+}
+.teams{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 140px;
+}
+.team-line{
+    margin-top: 140px;
+    margin-bottom: 54px;
+    width: 50px;
+    height: 4px;
+    flex-shrink: 0;
+    background: #F67E7E;
+}
+.teams-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.team-text{
+    margin-left: 20px;
+}
+.team-title{
+    width: 445px;
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+.team-title-color{
+    width: 445px;
+    color: #F67E7E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+.teams-text{
+    width: 445px;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.8;
+}
+.card1{
+    display: flex;
+    justify-content: space-between;
+}
+.stories-section{
+    background-color: #004047; 
+    background-image: url("../images/element-bg4.svg"),url("../images/element-bg5.svg");
+    background-repeat: no-repeat no-repeat;
+    background-position: calc(50% - 700px) calc(50% - 323px), calc(50% + 660px) calc(50% + 374px);   
+}
+.stories-title-text{
+    display: flex;
+    justify-content: center;
+}
+.stories-title{
+    margin-top: 140px;
+    width: 933px;
+    color: #FFF;  
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+.stories-text-color{
+    color: #79C8C7;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+.stories-content{
+    display: flex;
+    justify-content: space-between;
+}
+.stories-text2{
+    width: 350px;
+    color: #FFF;  
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    margin-top: 92px;
+    margin-bottom: 24px;
+}
+.stories-text{
+    width: 350px;
+    color: #79C8C7;  
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+}
+.stories-text3{
+    width: 350px;
+    color: #FFF;   
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px; 
+    margin-bottom: 32px;
+}
+.stories-png{
+    width: 350px;
+    text-align: center;
+}
+.stories-img{
+    margin-bottom: 151px;
+    border-radius: 62px;
+    border: 2px solid #C4FFFE;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+.footer-color{
+    background-color: #F67E7E;
+    background-image: url("../images/element-bg6.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 660px) calc(50% + 79px);
+}
+.footer-card{
+    padding-top: 76px;
+    padding-bottom: 76px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.footer-title{
+    color: #012F34;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+.footer-button{
+    cursor: pointer;
+    width: 153px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 2px solid black;
+    color: #012F34;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    background-color: #F67E7E;
+}
+.footer-button:hover{
+    cursor: pointer;
+    width: 153px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 2px solid black;
+    color: #F67E7E;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    background-color: #012F34;
+}
+.footer-bg{
+    background-color: #002529;
+}
+.footer-end{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.footer-end-logo{
+    flex-shrink: 0;
+}
+.footer-end-text{
+    width: 445px;
+    color: #FFF;
+    opacity: 0.6;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+.footer-link{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+}
+.footer-link + .footer-link{
+    margin-left: 40px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+}
+.footer-card3{
+    text-align: right;
+    cursor: pointer;
+}
+.footer-svg{
+    flex-shrink: 0;
+    text-align: right;
+}
+.footer-text{
+    margin-top: 51px;
+    width: 255px;
+    color: #FFF;   
+    text-align: right;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.6;
+}
