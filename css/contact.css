@@ -33,16 +33,15 @@
 }
 body{
     font-family: 'Livvic', sans-serif;
+    background-color: #014E56;
 }
 .site-header{
-    height: 700px;
-    background-color: #014E56;
-    background-image: url("../images/contact-element.png"), url("../images/contact-oval.png");
+    /* background-image: url("../images/contact-element.png"), url("../images/contact-oval.png");
     background-repeat: no-repeat;
-    background-position: calc(50% - 758px) calc(50% + 31px),calc(50% + 767px) calc(50% + 238px);
+    background-position: calc(50% - 758px) calc(50% + 31px),calc(50% + 767px) calc(50% + 238px); */
 }
 .container{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -53,7 +52,7 @@ body{
     padding-top: 80px;
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    max-width: 1200px;
 }
 .header-logo{
     display: flex;
@@ -266,4 +265,143 @@ body{
     font-weight: 600;
     line-height: 25px;
     opacity: 0.6;
+}
+@media only screen and (max-width:768px){
+    .myteam-logo{
+        margin-right: 48px;
+        margin-left: 10px;
+        width: 128px;
+        height: 32px;
+    }
+    .site-header{
+        background-image: url("../images/contanct-img1.svg");
+        background-repeat: no-repeat;
+        background-position: left 280px;
+    }
+    .hero{
+        background-image: url("../images/contanct-img2.svg");
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+    .hero-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-title{
+        text-align: center;
+        margin-bottom: 24px;
+
+    }
+    .hero-title-text{
+        text-align: center;
+    }
+    .hero-card1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 63px;
+    }
+    .card1{
+        display: flex;
+        align-items: center;
+    }
+    .hero-line{
+        display: inline;
+    }
+    .hero-text{
+        text-align: center;
+    }
+    .hero-card2{
+        padding-bottom: 256px;
+        background-image: url("../images/taland-img2.svg");
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+    .hero-card{
+        margin-bottom: 112px;
+    }
+    .team-title{
+        width: 100%;
+    }
+    .teams-content{
+        flex-direction: column;
+        gap: 64px;
+    }
+    .teams{
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        padding-left: 80px;
+    }
+    .team-text{
+        padding-top: 0;
+    }
+    .teams-text{
+        margin-top: 16px;
+    }
+    .footer-bg{
+        padding-bottom: 56px;
+       }
+       .footer{
+        background-image: url("../images/ready-svg.svg");
+        background-repeat: no-repeat;
+        background-position: left bottom;
+       }
+       .footer-title{
+        color: #012F34;
+        font-family: Livvic;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 100% */
+        margin-right: 84px;
+       }
+       .footer-card1{
+        margin-bottom: 33px;
+       }
+       .footer-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .footer-end-logo{
+        width: 96px;
+        height: 24px;
+        margin-bottom: 53px;
+       }
+       .footer-link{
+        color: #FFF;
+        font-family: Livvic;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px; /* 166.667% */
+       }
+       .footer-end{
+        padding-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+       }
+       .footer-end-text{
+        width: auto;
+       }
+       .footer-card3{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       }
+       .footer-box{
+        display: flex;
+        flex-direction: column;
+       }
+       .footer-text{
+        margin-top: 0;
+       }
+}
+@media only screen and (max-width: 375px) {
+    .header-content{
+        display: none;
+    }
 }
