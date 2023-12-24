@@ -342,7 +342,6 @@ body{
 .footer-link + .footer-link{
     margin-left: 40px;
     color: #FFF;
-    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 28px; 
@@ -768,10 +767,22 @@ body{
         margin-top: 24px;
         margin-bottom: 83px;
     }
+    .footer-title-text{
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 100% */
+    }
     .footer{
         background-image: url("../images/ready-mobile-img.svg");
         background-repeat: no-repeat;
         background-position: left bottom;
+    }
+    .footer-img{
+        display: none;
     }
     .footer-end{
         flex-direction: column;
