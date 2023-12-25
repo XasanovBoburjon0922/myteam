@@ -114,7 +114,7 @@ body{
     justify-content: space-between;
 }
 .hero-title{
-    width: 620px;
+    max-width: 620px;
     color: #FFF;
     font-size: 100px;
     font-style: normal;
@@ -145,7 +145,7 @@ body{
     margin-bottom: 79px;
 }
 .hero-text{
-    width: 445px;
+    max-width: 445px;
     color: #FFF;
     font-size: 18px;
     font-style: normal;
@@ -180,7 +180,7 @@ body{
     margin-left: 20px;
 }
 .team-title{
-    width: 445px;
+    max-width: 445px;
     color: #FFF;
     font-size: 48px;
     font-style: normal;
@@ -188,7 +188,7 @@ body{
     line-height: 48px;
 }
 .team-title-color{
-    width: 445px;
+    max-width: 445px;
     color: #F67E7E;
     font-size: 18px;
     font-style: normal;
@@ -196,7 +196,7 @@ body{
     line-height: 28px;
 }
 .teams-text{
-    width: 445px;
+    max-width: 445px;
     color: #FFF;
     font-size: 15px;
     font-style: normal;
@@ -210,9 +210,9 @@ body{
 }
 .stories-section{
     background-color: #004047; 
-    background-image: url("../images/element-bg4.svg"),url("../images/element-bg5.svg");
+    /* background-image: url("../images/element-bg4.svg"),url("../images/element-bg5.svg");
     background-repeat: no-repeat no-repeat;
-    background-position: calc(50% - 700px) calc(50% - 323px), calc(50% + 660px) calc(50% + 374px);   
+    background-position: calc(50% - 700px) calc(50% - 323px), calc(50% + 660px) calc(50% + 374px);    */
 }
 .stories-title-text{
     display: flex;
@@ -220,7 +220,7 @@ body{
 }
 .stories-title{
     margin-top: 140px;
-    width: 933px;
+    max-width: 933px;
     color: #FFF;  
     text-align: center;
     font-size: 48px;
@@ -240,7 +240,7 @@ body{
     justify-content: space-between;
 }
 .stories-text2{
-    width: 350px;
+    max-width: 350px;
     color: #FFF;  
     text-align: center;
     font-size: 15px;
@@ -251,7 +251,7 @@ body{
     margin-bottom: 24px;
 }
 .stories-text{
-    width: 350px;
+    max-width: 350px;
     color: #79C8C7;  
     text-align: center;
     font-size: 18px;
@@ -260,7 +260,7 @@ body{
     line-height: 28px; 
 }
 .stories-text3{
-    width: 350px;
+    max-width: 350px;
     color: #FFF;   
     text-align: center;
     font-size: 13px;
@@ -270,7 +270,7 @@ body{
     margin-bottom: 32px;
 }
 .stories-png{
-    width: 350px;
+    max-width: 350px;
     text-align: center;
 }
 .stories-img{
@@ -282,9 +282,9 @@ body{
 }
 .footer-color{
     background-color: #F67E7E;
-    background-image: url("../images/element-bg6.svg");
+    /* background-image: url("../images/element-bg6.svg");
     background-repeat: no-repeat;
-    background-position: calc(50% - 660px) calc(50% + 79px);
+    background-position: calc(50% - 660px) calc(50% + 79px); */
 }
 .footer-card{
     padding-top: 76px;
@@ -346,7 +346,7 @@ body{
     flex-shrink: 0;
 }
 .footer-end-text{
-    width: 445px;
+    max-width: 445px;
     color: #FFF;
     opacity: 0.6;
     font-size: 15px;
@@ -378,7 +378,7 @@ body{
 }
 .footer-text{
     margin-top: 51px;
-    width: 255px;
+    max-width: 255px;
     color: #FFF;   
     text-align: right;
     font-size: 15px;
@@ -389,12 +389,13 @@ body{
 }
 .hamburger-btn{
     display: none;
+    border: none;
 }
 @media only screen and (max-width:768px){
     .myteam-logo{
         margin-right: 48px;
         margin-left: 10px;
-        width: 128px;
+        max-width: 128px;
         height: 32px;
     }
     .hero-content{
@@ -420,7 +421,7 @@ body{
         background-position: center bottom;
     }
     .team-title{
-        width: 100%;
+        max-width: 100%;
     }
     .teams-content{
         flex-direction: column;
@@ -557,14 +558,14 @@ body{
     .hero-card1{
         display: flex;
         justify-content: center;
-        width: 327px;
+        max-width: 327px;
         padding-left: 24px;
         padding-right: 24px;
     }
     .hero-card2{
         display: flex;
         justify-content: center;
-        width: 369px;
+        max-width: 369px;
         padding-left: 24px;
         padding-right: 24px;
         background-image: url("../images/taland-img-mobile.svg");
@@ -584,7 +585,7 @@ body{
         display: none;
     }
     .card{
-        width: 240px;
+        max-width: 240px;
     }
     .team-title{
         color: #FFF;
@@ -613,7 +614,7 @@ body{
         background-position: right top;
     }
     .card1{
-        width: 327px;
+        max-width: 327px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -621,7 +622,7 @@ body{
         margin-bottom: 60px;
     }
     .team-title-color{
-        width: 327px;
+        max-width: 327px;
         display: inline-block;
         color: #F67E7E;
         text-align: center;
@@ -632,7 +633,7 @@ body{
         line-height: 28px; /* 155.556% */
     }
     .teams-text{
-        width: 327px;
+        max-width: 327px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -645,7 +646,7 @@ body{
         line-height: 25px; /* 166.667% */
     }
     .stories-title-text{
-        width: 327px;
+        max-width: 327px;
     }
     .stories-title{
         color: #FFF;
@@ -703,7 +704,7 @@ body{
     .footer-card{
         padding-left: 24px;
         padding-right: 24px;
-        width: 327px;
+        max-width: 327px;
         flex-direction: column;
         align-items: center;
         justify-content: center;

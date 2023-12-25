@@ -35,11 +35,7 @@ body{
     font-family: 'Livvic', sans-serif;
     background-color: #014E56;
 }
-.site-header{
-    /* background-image: url("../images/contact-element.png"), url("../images/contact-oval.png");
-    background-repeat: no-repeat;
-    background-position: calc(50% - 758px) calc(50% + 31px),calc(50% + 767px) calc(50% + 238px); */
-}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -113,7 +109,7 @@ body{
     align-items: start;
 }
 .hero-title{
-    width: 350px;
+    max-width: 350px;
     color: #FFF;
     font-size: 64px;
     font-style: normal;
@@ -122,7 +118,7 @@ body{
     height: 81px;
 }
 .hero-title-text{
-    width: 540px;
+    max-width: 540px;
     color: #F67E7E;
     font-size: 32px;
     font-style: normal;
@@ -138,7 +134,7 @@ body{
 }
 .team-text{
     margin-left: 23px;
-    width: 445px;
+    max-width: 445px;
     flex-shrink: 0;
     color: #FFF;
     font-size: 18px;
@@ -147,7 +143,7 @@ body{
     line-height: 28px;
 }
 .input{
-    width: 445px;
+    max-width: 445px;
     color: #FFF;
     font-size: 15px;
     font-style: normal;
@@ -168,7 +164,7 @@ body{
     opacity: 0.6;
 }
 .input2{
-    width: 445px;
+    max-width: 445px;
     color: #FFF;
     font-size: 15px;
     font-style: normal;
@@ -191,14 +187,14 @@ body{
 }
 .text{
     margin: 16px auto;
-    width: 540px;
+    max-width: 540px;
     height: 1px;
     flex-shrink: 0;
     background: #FFF;
 }
 .submit-button{
     margin-top: 24px;
-    width: 123px;
+    max-width: 123px;
     height: 48px;
     flex-shrink: 0;
     border-radius: 24px;
@@ -224,7 +220,7 @@ body{
     flex-shrink: 0;
 }
 .footer-end-text{
-    width: 445px;
+    max-width: 445px;
     color: #FFF;
     opacity: 0.6;
     font-size: 15px;
@@ -256,7 +252,7 @@ body{
 }
 .footer-text{
     margin-top: 51px;
-    width: 255px;
+    max-width: 255px;
     color: #FFF;   
     text-align: right;
     font-size: 15px;
@@ -269,7 +265,7 @@ body{
     .myteam-logo{
         margin-right: 48px;
         margin-left: 10px;
-        width: 128px;
+        max-width: 128px;
         height: 32px;
     }
     .site-header{
@@ -296,6 +292,7 @@ body{
         text-align: center;
     }
     .hero-card1{
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -322,7 +319,7 @@ body{
         margin-bottom: 112px;
     }
     .team-title{
-        width: 100%;
+        max-width: 100%;
     }
     .teams-content{
         flex-direction: column;
@@ -366,7 +363,7 @@ body{
         align-items: center;
        }
        .footer-end-logo{
-        width: 96px;
+        max-width: 96px;
         height: 24px;
         margin-bottom: 53px;
        }
@@ -398,9 +395,273 @@ body{
        .footer-text{
         margin-top: 0;
        }
+       .hamburger-btn{
+        display: block;
+        border: none;
+        background-color: #014E56;
+    }
 }
-@media only screen and (max-width: 375px) {
-    .header-content{
+@media only screen and (max-width: 376px) {
+    .header-text{
         display: none;
     }
+    .header-logo{
+        width: 128px;
+        height: 32px;
+    }
+    .button{
+        display: none;
+    }
+    .site-header{
+        background-image: none;
+    }
+    .header{
+        margin-bottom: 80px;
+    }
+    .hamburger-btn{
+        display: block;
+        border: none;
+        background-color: #014E56;
+    }
+    .hero-content{
+        max-width: 327px;
+    }
+    .hero-title{
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; /* 100% */
+        height: 43px;
+    }
+    .label-hero{
+        max-width: 100%;
+    }
+    .color-red{
+        color: #F67E7E;
+        font-family: Livvic;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .hero-card1{
+        display: flex;
+        justify-content: center;
+        max-width: 327px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .hero-card2{
+        display: flex;
+        justify-content: center;
+        max-width: 369px;
+        padding-left: 24px;
+        padding-right: 24px;
+        background-image: url("../images/about-mobile-img.svg");
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+    .hero-text{
+        max-width: 327px;
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px; /* 186.667% */
+    }
+    .hero-line{
+        display: none;
+    }
+    .directors-section{
+        background-image: url("../images/directors-mobile-img.svg");
+        background-repeat: no-repeat;
+        background-position: left top;
+    }
+    .director-title{
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 100% */
+    }
+    .card{
+        max-width: 240px;
+    }
+    .team-title{
+        color: #FFF;
+        font-family: Livvic;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 100% */
+    }
+    .team-line{
+        margin-top: 64px;
+        margin-bottom: 32px;
+    }
+    .team-text{
+        width: 232px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    .teams{
+        padding-left: 24px;
+        padding-bottom: 0;
+        background-image: url("../images/build-logo.svg");
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+    .card1{
+        max-width: 327px;
+        display: flex;
+        gap: 23px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .team-title-color{
+        max-width: 327px;
+        display: inline-block;
+        color: #F67E7E;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 155.556% */
+    }
+    .teams-text{
+        max-width: 327px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        font-family: Livvic;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 155.556% */
+    }
+    .stories-title-text{
+        max-width: 327px;
+    }
+    .stories-title{
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 100% */
+    }
+    .stories-text-color{
+        color: #79C8C7;
+        font-family: Livvic;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    .stories-text2{
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px; /* 166.667% */
+    }
+    .stories-text{
+        color: #79C8C7;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 155.556% */
+    }
+    .stories-text3{
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 13px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 18px; /* 138.462% */
+    }
+    .stories{
+        background-image: none;
+    }
+
+    .stories-section{
+        background-image: url("../images/stories-mobile-img1.svg") , url("../images/stories-mobile-img2.svg");
+        background-position: left top, right bottom;
+        background-repeat: no-repeat, no-repeat;
+    }
+    .footer-clients{
+        background-image: url("../images/clients-mobile.svg");
+        background-repeat: no-repeat;
+        background-position: left top;
+    }
+    .footer-card{
+        padding-left: 24px;
+        padding-right: 24px;
+        max-width: 327px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 0;
+    }
+    .footer-title{
+        color: #012F34;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 100% */
+        margin: 0;
+    }
+    .footer-button{
+        margin-top: 24px;
+        margin-bottom: 83px;
+    }
+    .footer-title-text{
+        color: #FFF;
+        text-align: center;
+        font-family: Livvic;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 100% */
+    }
+    .footer{
+        background-image: url("../images/ready-mobile-img.svg");
+        background-repeat: no-repeat;
+        background-position: left bottom;
+    }
+    .footer-img{
+        display: none;
+    }
+    .footer-end{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .footer-card3{
+        flex-direction: column;
+        gap: 16px;
+    }
+
 }

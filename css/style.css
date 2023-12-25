@@ -107,7 +107,7 @@ body{
     justify-content: space-between;
 }
 .hero-title{
-    width: 350px;
+    max-width: 350px;
     height: 200px;
     color: #FFF;
     font-size: 100px;
@@ -144,9 +144,9 @@ body{
 }
 .directors-section{
     background-color: #004047;
-    background-image: url("../images/element-bg8.png"), url("../images/element-bg9.png");
+    /* background-image: url("../images/element-bg8.png"), url("../images/element-bg9.png");
     background-repeat: no-repeat, no-repeat;
-    background-position: calc(50% - 759px) calc(50% - 425px), calc(50% + 700px) calc(50% + 475px);
+    background-position: calc(50% - 759px) calc(50% - 425px), calc(50% + 700px) calc(50% + 475px); */
 }
 .director-title-text{
     display: flex;
@@ -155,7 +155,7 @@ body{
 }
 .director-title{
     padding-top: 140px;
-    width: 920px;
+    max-width: 920px;
     color: #FFF;
     text-align: center;
     font-size: 48px;
@@ -175,7 +175,7 @@ body{
     margin-bottom: 133px;
 }
 .directors-card1{
-    width: 350px;
+    max-width: 350px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -228,7 +228,7 @@ body{
 .directors-text1{
     margin-top: 10px;
     margin-bottom: 20px;
-    width: 254px;
+    max-width: 254px;
     color: #FFF;
     text-align: center;
     font-size: 15px;
@@ -324,7 +324,7 @@ body{
     flex-shrink: 0;
 }
 .footer-end-text{
-    width: 445px;
+    max-width: 445px;
     color: #FFF;
     opacity: 0.6;
     font-size: 15px;
@@ -356,7 +356,7 @@ body{
 }
 .footer-text{
     margin-top: 51px;
-    width: 255px;
+    max-width: 255px;
     color: #FFF;   
     text-align: right;
     font-size: 15px;
@@ -369,7 +369,7 @@ body{
     .myteam-logo{
         margin-right: 48px;
         margin-left: 10px;
-        width: 128px;
+        max-width: 128px;
         height: 32px;
     }
     .site-header{
@@ -394,7 +394,7 @@ body{
     }
     .hero-text{
         text-align: center;
-        width: 444px;
+        max-width: 444px;
     }
     .hero-card2{
         display: flex;
@@ -410,7 +410,7 @@ body{
         padding-bottom: 112px;
     }
     .team-title{
-        width: 100%;
+        max-width: 100%;
     }
     .teams-content{
         flex-direction: column;
@@ -484,7 +484,7 @@ body{
     align-items: center;
    }
    .footer-end-logo{
-    width: 96px;
+    max-width: 96px;
     height: 24px;
     margin-bottom: 53px;
    }
@@ -534,7 +534,7 @@ body{
     background-position: right bottom;
    }
    .directors-card1{
-    width: 281px;
+    max-width: 281px;
    }
 }
 @media only screen and (max-width: 376px) {
@@ -542,7 +542,7 @@ body{
         display: none;
     }
     .header-logo{
-        width: 128px;
+        max-width: 128px;
         height: 32px;
     }
     .button{
@@ -556,10 +556,11 @@ body{
     }
     .hamburger-btn{
         display: block;
+        border: none;
         background-color: #014E56;
     }
     .hero-content{
-        width: 327px;
+        max-width: 327px;
     }
     .hero-title{
         color: #FFF;
@@ -581,14 +582,14 @@ body{
     .hero-card1{
         display: flex;
         justify-content: center;
-        width: 327px;
+        max-width: 327px;
         padding-left: 24px;
         padding-right: 24px;
     }
     .hero-card2{
         display: flex;
         justify-content: center;
-        width: 369px;
+        max-width: 369px;
         padding-left: 24px;
         padding-right: 24px;
         background-image: url("../images/about-mobile-img.svg");
@@ -596,7 +597,7 @@ body{
         background-position: right bottom;
     }
     .hero-text{
-        width: 327px;
+        max-width: 327px;
         color: #FFF;
         text-align: center;
         font-family: Livvic;
@@ -623,7 +624,7 @@ body{
         line-height: 32px; /* 100% */
     }
     .card{
-        width: 240px;
+        max-width: 240px;
     }
     .team-title{
         color: #FFF;
@@ -652,7 +653,7 @@ body{
         background-position: right top;
     }
     .card1{
-        width: 327px;
+        max-width: 327px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -660,7 +661,7 @@ body{
         margin-bottom: 60px;
     }
     .team-title-color{
-        width: 327px;
+        max-width: 327px;
         display: inline-block;
         color: #F67E7E;
         text-align: center;
@@ -671,7 +672,7 @@ body{
         line-height: 28px; /* 155.556% */
     }
     .teams-text{
-        width: 327px;
+        max-width: 327px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -684,7 +685,7 @@ body{
         line-height: 25px; /* 166.667% */
     }
     .stories-title-text{
-        width: 327px;
+        max-width: 327px;
     }
     .stories-title{
         color: #FFF;
@@ -747,7 +748,7 @@ body{
     .footer-card{
         padding-left: 24px;
         padding-right: 24px;
-        width: 327px;
+        max-width: 327px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
